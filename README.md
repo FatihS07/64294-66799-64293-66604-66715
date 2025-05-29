@@ -4,6 +4,9 @@ A full-stack web application that generates random lottery numbers, stores them 
 
 ---
 
+## 64294(Fatih Sanlı)-66799(Emir Akyer)-64293(Sarkhan Rahimov)-66604(Ali Valiyev)-66715(Shahin Feyzizade)
+---
+
 ## 📌 Project Objective
 
 The application enables users to:
