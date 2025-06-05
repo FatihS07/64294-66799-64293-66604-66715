@@ -42,6 +42,77 @@ The application enables users to:
 
 ---
 
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd lottonumbergenerator
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Apply Django Migrations
+
+```bash
+python manage.py migrate
+```
+
+### 5. (Optional) Create a Superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+### 6. Run the Django Backend
+
+```bash
+python manage.py runserver
+```
+
+The backend will be available at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+
+---
+
+## Running the Frontend
+
+### 1. Install Frontend Dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+### 2. Start the Frontend Development Server
+
+```bash
+npm start
+```
+
+The frontend will typically be available at [http://localhost:5173/](http://localhost:5173/).
+
+---
+
+## API Endpoints
+
+- `GET /api/generate_numbers/` — Generate random lotto numbers and save to DB
+- `GET /api/stats/` — Get statistics (last 24h draws, total draws, most common number)
+
+
+---
+
 ![44](https://github.com/user-attachments/assets/60c0997e-c5f4-4855-83ef-1de78e7b992b)
 ![33](https://github.com/user-attachments/assets/38672648-3548-47de-bff7-f04d74bed8f5)
 ![22](https://github.com/user-attachments/assets/76eddabb-212d-4141-9a26-18aa47fc97a9)
