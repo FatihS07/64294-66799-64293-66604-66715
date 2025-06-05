@@ -42,5 +42,13 @@ The application enables users to:
 
 ---
 
+![44](https://github.com/user-attachments/assets/60c0997e-c5f4-4855-83ef-1de78e7b992b)
+![33](https://github.com/user-attachments/assets/38672648-3548-47de-bff7-f04d74bed8f5)
+![22](https://github.com/user-attachments/assets/76eddabb-212d-4141-9a26-18aa47fc97a9)
+![11](https://github.com/user-attachments/assets/28c885af-8b80-4b28-bee5-7ef0766f41bf)
+
+
+https://github.com/user-attachments/assets/07b531d9-e1fe-465c-97ae-2b12db336ebc
+
 
 
