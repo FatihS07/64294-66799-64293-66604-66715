@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lotto Number Generator</title>
+</head>
+<body>
+    <h1>Lotto Number Generator</h1>
+    <button id="generateBtn">Generate Numbers</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('generateBtn').addEventListener('click', function() {
+            fetch('/generate/')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('result').innerHTML = `
+                        <h3>Generated Numbers:</h3>
+                        <p>${data.numbers.join(', ')}</p>
+                    `;
+                });
+        });
+    </script>
+</body>
+</html>

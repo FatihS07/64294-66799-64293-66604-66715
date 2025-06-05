@@ -1,0 +1,7 @@
+# requirements.txt
+Django==5.0
+djangorestframework==3.15.2  # Django 5.0 ile test edilmiş stabil sürüm
+django-cors-headers==4.3.1
+python-dotenv==1.0.0
+psycopg2-binary==2.9.9  # PostgreSQL için (opsiyonel)
+gunicorn==21.2.0  # Production için

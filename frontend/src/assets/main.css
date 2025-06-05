@@ -1,0 +1,77 @@
+@import './base.css';
+
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.background-pattern {
+  background: radial-gradient(circle, rgba(25,25,25,1) 0%, rgba(15,15,15,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* center yerine üstten başlatmak için */
+  padding-top: 40px;
+}
+
+
+
+.game-card {
+  max-width: 900px;
+  width: 100%;
+  min-height: 600px;
+  height: 500px;
+  margin: auto;
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fixed-card {
+  width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 48px; /* Sayıları üstten aşağı it */
+  margin-bottom: 48px; /* Alt içerikten de ayır */
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    padding: 0 2rem;
+  }
+}
+
+.v-theme--light .background-pattern {
+  background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(220,220,220,1) 100%);
+}
+
+.v-theme--dark .background-pattern {
+  background: radial-gradient(circle, rgba(25,25,25,1) 0%, rgba(15,15,15,1) 100%);
+}
